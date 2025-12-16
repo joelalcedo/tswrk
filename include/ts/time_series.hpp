@@ -1,9 +1,11 @@
 #pragma once
 
 #include <chrono>
-#include <stdexcept>
+#include <cstddef>
 #include <utility>
 #include <vector>
+
+namespace ts {
 
 class TimeSeries {
 public:
@@ -20,16 +22,12 @@ public:
     bool empty() const noexcept { return data_.empty(); }
 
     const point& at(std::size_t i) const { return data_.at(i); }
-    const point& operator[](std::size_t i) const { return data_[i]; }
-
 
     time_point time_at(std::size_t i) const { return data_.at(i).first; }
     double value_at(std::size_t i) const { return data_.at(i).second; }
-
-    auto begin() const noexcept { return data_.begin(); }
-    auto end() const noexcept { return data_.end(); }
 
 private:
     std::vector<point> data_;
 };
 
+} 

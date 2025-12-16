@@ -76,15 +76,15 @@ CMakeFiles/tswrk.dir/src/main.cpp.o: CMakeFiles/tswrk.dir/flags.make
 CMakeFiles/tswrk.dir/src/main.cpp.o: /Users/joelalcedo/Documents/projects/cpp/tswrk/src/main.cpp
 CMakeFiles/tswrk.dir/src/main.cpp.o: CMakeFiles/tswrk.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/joelalcedo/Documents/projects/cpp/tswrk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tswrk.dir/src/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tswrk.dir/src/main.cpp.o -MF CMakeFiles/tswrk.dir/src/main.cpp.o.d -o CMakeFiles/tswrk.dir/src/main.cpp.o -c /Users/joelalcedo/Documents/projects/cpp/tswrk/src/main.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tswrk.dir/src/main.cpp.o -MF CMakeFiles/tswrk.dir/src/main.cpp.o.d -o CMakeFiles/tswrk.dir/src/main.cpp.o -c /Users/joelalcedo/Documents/projects/cpp/tswrk/src/main.cpp
 
 CMakeFiles/tswrk.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tswrk.dir/src/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/joelalcedo/Documents/projects/cpp/tswrk/src/main.cpp > CMakeFiles/tswrk.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/joelalcedo/Documents/projects/cpp/tswrk/src/main.cpp > CMakeFiles/tswrk.dir/src/main.cpp.i
 
 CMakeFiles/tswrk.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tswrk.dir/src/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/joelalcedo/Documents/projects/cpp/tswrk/src/main.cpp -o CMakeFiles/tswrk.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/joelalcedo/Documents/projects/cpp/tswrk/src/main.cpp -o CMakeFiles/tswrk.dir/src/main.cpp.s
 
 # Object files for target tswrk
 tswrk_OBJECTS = \

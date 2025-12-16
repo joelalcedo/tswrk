@@ -1,1 +1,1 @@
-/usr/bin/clang++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/tswrk.dir/src/main.cpp.o -o tswrk
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/tswrk.dir/src/main.cpp.o -o tswrk
