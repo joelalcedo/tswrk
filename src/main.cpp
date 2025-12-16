@@ -1,7 +1,5 @@
 #include "ts/time_series.hpp"
-
 #include <chrono>
-#include <iostream>
 
 int main() {
     ts::TimeSeries s;
@@ -9,11 +7,13 @@ int main() {
     using clock = std::chrono::system_clock;
     auto t0 = clock::now();
 
-    s.push_back(t0, 100.0);
-    s.push_back(t0 + std::chrono::hours(24), 101.5);
+    for (int i = 0; i < 15; ++i) {
+        s.push_back(t0 + std::chrono::hours(24 * i), 2.04 + 0.2 * i);
+    }
 
-    std::cout << "size=" << s.size() << "\n";
-    std::cout << "first value=" << s.value_at(0) << "\n";
-    std::cout << "second value=" << s.value_at(1) << "\n";
+    ts::head(s, 10);
+    ts::tail(s, 5);
+    // ts::print(s);
+
     return 0;
 }
