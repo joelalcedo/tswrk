@@ -1,0 +1,3 @@
+/Users/joelalcedo/Documents/projects/cpp/tswrk/build/CMakeFiles/tswrk.dir
+/Users/joelalcedo/Documents/projects/cpp/tswrk/build/CMakeFiles/edit_cache.dir
+/Users/joelalcedo/Documents/projects/cpp/tswrk/build/CMakeFiles/rebuild_cache.dir
